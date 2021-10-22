@@ -1,0 +1,56 @@
+@media (max-width: 1000px) {
+.message {
+    width: 50%;
+    margin-bottom: 50px;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.top-wrapper h1 {
+    font-size: 32px;
+}
+
+.top-wrapper h2 {
+    font-size: 20px
+}
+
+}
+
+@media (max-width: 670px) {
+.message {
+    width: 100%;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.btn {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.top-wrapper {
+    text-align: left;
+    padding-top: 130px;
+}
+
+.top-wrapper h1 {
+    font-size: 24px;
+}
+
+.top-wrapper h2 {
+    font-size: 14px;
+}
+
+.header-right {
+    display: none;
+}
+
+.menu-icon span {
+    display: block;
+}
+
+}
