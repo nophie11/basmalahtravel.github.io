@@ -1,0 +1,276 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+a {
+    text-decoration: none;
+}
+
+.clear {
+    clear: left;
+}
+
+.container {
+    max-width: 1170px;
+    width: 100%;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.top-wrapper {
+    padding: 180px 0 70px 0;
+    background-image: url("https://cdn.pixabay.com/photo/2012/11/22/08/19/mecca-66985_960_720.jpg");
+    background-size: cover;
+    color: white;
+    text-align: center;
+}
+
+.top-wrapper h1 {
+    font-size: 45px;
+    color: white;
+    letter-spacing: 5px;
+    margin-bottom: 10px;
+}
+
+.top-wrapper p {
+    opacity: 1;
+    margin-bottom: 3px;
+}
+
+.btn-wrapper {
+    text-align: center;
+    margin: 60px 0;
+}
+
+.haji {
+    background-color: rgba(34, 49, 52, 0.9);
+    margin-right: 40px;
+}
+
+.umroh {
+    background-color: rgba(34, 49, 52, 0.9);
+    margin-right: 40px;
+}
+
+.wisata {
+    background-color: rgba(34, 49, 52, 0.9);
+}
+
+.btn {
+    padding: 12px 24px;
+    color: white;
+    display: inline-block;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.btn-wrapper a:hover {
+    background-color:  rgb(43, 56, 68);
+}
+
+header {
+    height: 65px;
+    width: 100%;
+    background-color: rgba(34, 49, 52, 0.9);
+    position: fixed;
+    top: 0;
+    z-index: 10;
+}
+
+.header-left {
+    float: left;
+    margin-top: 20px;
+}
+
+.header-left a {
+    color: white;
+}
+
+.header-right {
+    float: right;
+    margin-right: -25px;
+}
+
+.header-right a {
+    line-height: 65px;
+    padding: 0 25px;
+    color: white;
+    display: block;
+    float: left;
+    transition: all 0.5s;
+}
+
+.header-right a:hover {
+    background-color: rgb(43, 56, 68);
+}
+
+.menu-icon span {
+    color: white;
+    float: right;
+    font-size: 25px;
+    padding: 21px 0;
+    display: none;
+}
+.lesson-wrapper {
+    margin-top: 50px;
+    padding-bottom: 80px;
+    padding-left: 5%;
+    padding-right: 5%;
+    background-color: #f7f7f7;
+    text-align: center;
+}
+
+.lesson-icon {
+    position: relative;
+    top: 50%;
+    width: 100%;
+}
+
+.lesson-icon h3 {
+    font-weight: bolder;  
+}
+
+.text-contents {
+    width: 60%;
+    display: inline-block;
+    margin-top: 20px;
+    font-size: 15px;
+    color: black;
+}
+
+.ketahui {
+    margin: 20px;
+    padding: 10px 30px;
+    background-color: rgba(34, 49, 52, 0.9);
+    cursor: pointer;
+    box-shadow: 0 7px grey;
+}
+
+.ketahui:active {
+    position: relative;
+    top: 7px;
+    box-shadow: none;
+}
+
+.ketahui:hover {
+    background-color: rgb(43, 56, 68);
+}
+
+.container .message-wrapper {
+    height: 40px;
+    line-height: 40px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.message-wrapper {
+    padding-bottom: 200px;
+    padding-right: 15%;
+    text-align: center;
+    background-color: rgb(43, 56, 68);
+    color: seashell;
+    position: relative;
+    margin: 0 auto;
+}
+
+.message {
+    float: left;
+    width: 25%;
+}
+
+.message-text {
+    position: absolute;
+}
+
+.message p {
+    margin-bottom: 5px;
+    color:seashell;
+}
+
+.message span {
+    font-weight: bolder;
+}
+
+.text-content p {
+    width: 80%;
+    display: inline-block;
+    margin-top: 10px;
+    font-size: 15px;
+    color: seashell; 
+}
+
+.contact-form {
+    padding-top: 40px;
+    margin-left: 100px;
+    font-size: 15px;
+}
+
+input, textarea {
+    width: 400px;
+    margin-top: 3px;
+    margin-bottom: 3px;
+    padding: 20px;
+    font-size: 15px;
+    border: 1px solid #dee7ec;
+}
+
+.contact-submit {
+    background-color: rgb(43, 56, 68);
+    color: white;
+    padding: 10px 30px;
+    cursor: pointer;
+    box-shadow: 2px 5px grey;
+    border-radius: 4px;
+}
+
+.contact-submit:active {
+    position: relative;
+    top: 7px;
+    box-shadow: none;
+}
+
+.contact-submit:hover {
+    background-color: rgba(34, 49, 52, 0.9);
+}
+
+footer {
+    margin-top: 80px;
+    background-color: white;
+    border-top: 2px solid #dee7ec;
+}
+
+.footer-left {
+    float: left;
+}
+
+.footer-left p {
+    font-size: 15px;
+    color: black;
+    font-weight: bolder;
+}
+
+.footer-right {
+    float: right;
+    margin-left: -25px;
+    margin-top: 10px;
+}
+
+.footer-right a {
+    padding: 2px 5px;
+    background: #222;
+    color: #fff;
+    border-radius: 4px;
+    display: inline-block;
+    transition: all 0.5s;
+}
+
+.footer-right a:hover {
+    background: #fff!important;
+    color: #222!important;
+}
